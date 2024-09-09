@@ -143,6 +143,11 @@ green{
     color:#10b981
 }
 
+/* Common flex */
+
+.flex{
+    display:flex;
+}
 
 
 /* Header sections */
@@ -181,4 +186,20 @@ ul>li>a:last-child{
 
 .ss{
     color:white;
+}
+
+
+/* working with hero sections */
+
+.hero-section{
+    margin-top:40px;
+    display: flex;
+}
+.hero-section .hero_content{
+    max-width: 75%;
+}
+.hero-section  p{
+
+ margin-top: 15px;
+    /* margin-top:2; */
 }
