@@ -48,4 +48,96 @@ input, button, textarea, select{
 body, html{
     height: 100%;
     scroll-behavior: smooth;
+    font-size:18px;
+    line-height:28px
+}
+/* Main container */
+.container{
+    width:100%;
+    margin:auto;
+    max-width:1024px;
+}
+
+
+/* Heading */
+
+/* Desktop */
+.h1{
+    font-size:60px;
+    line-height:72px;
+    letter-spacing:(-2%);
+    font-weight:700;
+}
+
+.h2{
+    font-size:36px;
+    color:#10b981
+    line-height: 40px;
+    letter-spacing: (-2%);
+    font-weight:600
+}
+ .h3{
+    font-size:30px;
+    line-height:36px;
+    letter-spacing:(-2%);
+    font-weight: 600;
+ }
+
+
+.P{
+
+}
+
+/* Colors */
+white{
+    color:#FFFFFF
+}
+
+lightWhite{
+    color:#f9fafb
+}
+
+white100{
+    color:#f3f4f6
+}
+
+gray200{
+    color:#e5e7eb
+}
+
+gray300{
+    color:#d1d5db
+}
+
+gray400{
+    color:#9ca3af
+}
+
+
+
+gray500{
+    color:#6b7280
+}
+
+
+gray600{
+    color:#4b5563
+}
+
+gray700{
+    color:#374151
+}
+gray800{
+    color:#1f2937
+}
+
+gray900{
+    color:#111827
+}
+gray950{
+    color:#030712
+}
+
+green{
+    color:#10b981
 }
