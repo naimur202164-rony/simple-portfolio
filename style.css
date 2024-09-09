@@ -49,7 +49,8 @@ body, html{
     height: 100%;
     scroll-behavior: smooth;
     font-size:18px;
-    line-height:28px
+    line-height:28px;
+    font-family:OpenSans ;
 }
 /* Main container */
 .container{
@@ -146,3 +147,38 @@ green{
 
 /* Header sections */
 
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 30px;
+    background-color:#10b981;
+}
+header ul{
+    list-style-type:none;
+    display:flex
+}
+
+header ul li a{
+    text-decoration:none;
+    color:#020203;
+    margin-right:15px;
+    font-size:18px;
+    /* font-weight: bold;; */
+}
+
+
+.cv-btn{
+    background-color:#111827;
+    padding: 0 10px;
+    border-radius:5px;
+
+}
+
+ul>li>a:last-child{
+    color:#f3f4f6;
+}
+
+.ss{
+    color:white;
+}
